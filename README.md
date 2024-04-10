@@ -3,6 +3,10 @@
 ## Introduction
 
 GalaxyOS is a new operating system designed to provide an innovative user experience and enhance productivity on mobile devices and personal computers. Built on modern technologies, GalaxyOS offers unique features and capabilities to meet the needs of both regular users and developers.
+
+## Compile commmands
+`nasm\nasm -f bin src/boot.asm -o boot.bin`
+
 ## Key Features
 ### 1. Intuitive Interface
 GalaxyOS features a modern and intuitive interface that simplifies navigation and access to device functions.
