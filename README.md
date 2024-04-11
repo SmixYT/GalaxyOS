@@ -4,11 +4,6 @@
 
 GalaxyOS is a new operating system designed to provide an innovative user experience and enhance productivity on mobile devices and personal computers. Built on modern technologies, GalaxyOS offers unique features and capabilities to meet the needs of both regular users and developers.
 
-## Compile commmands
-nasm -f elf32 kernel.asm -o kasm.o
-gcc -m32 -c kernel.c -o kc.o
-ld -m elf_i386 -T link.ld -o kernel.bin kasm.o kc.o
-
 ## Start on QEMU
 qemu-system-i386 -kernel kernel.bin
 
